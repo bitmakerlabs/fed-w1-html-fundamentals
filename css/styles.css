@@ -2,9 +2,11 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-header,
-main,
-footer {
+body {
+  margin: 0;
+}
+
+article {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -14,8 +16,72 @@ h1 {
   text-align: center;
   background-color: #ccc;
   font-size: 36px;
+  padding: 15px;
+  margin: 0;
 }
 
 h2 {
   color: tomato;
+}
+
+.large-screen {
+  display: none;
+}
+
+.nav-list {
+  padding: 0;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.social-links {
+  padding: 0;
+  text-align: right;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 15px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size:
+  }
+
+  .small-screen {
+    display: none;
+  }
+
+  .large-screen {
+    display: block;
+  }
+
+
+  section {
+    margin-bottom: 60px;
+  }
 }
