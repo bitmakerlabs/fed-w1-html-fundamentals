@@ -19,3 +19,14 @@ h1 {
 h2 {
   color: tomato;
 }
+
+
+.mainmenu {
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+}
+
+.mainmenu li {
+  display: inline-block;
+}
